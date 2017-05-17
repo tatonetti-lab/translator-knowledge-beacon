@@ -9,8 +9,11 @@ beacons:
   wraps: http://query.wikidata.org/sparql
   repo: https://github.com/stuppie/garbanzo
   contact: stuppie
-- name: Red
-  description: Drug-Drug interactions from red team
+- name: AEOLUS (Adverse Event Open Learning through Universal Standardization)
+  url: http://nsideseb-env.us-east-1.elasticbeanstalk.com/beacon/aeolus
+  description: FDA’s FAERS standardized reports and pre-computed statistics from reports
+  wraps: http://datadryad.org/resource/doi:10.5061/dryad.8q0s4
+  info: http://tatonettilab.org/resources/tatonetti-stm.html
   status: in_progress
   contact: victorganic
 - name: Monarch Biolink
